@@ -1,0 +1,83 @@
+[
+    {
+      "name": "Virat Kohli",
+      "country": "India",
+      "role": "Batter",
+      "price": 1500000,
+      "playingHand": "Right-hand",
+      "image": "https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg"
+    },
+    {
+      "name": "Babar Azam",
+      "country": "Pakistan",
+      "role": "Batter",
+      "price": 1400000,
+      "playingHand": "Right-hand",
+      "image": "https://st3.cricketcountry.com/wp-content/uploads/2024/02/Babar-Azam-1-1568x1277.jpg?impolicy=Medium_Widthonly&w=800"
+    },
+    {
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "role": "All-rounder",
+      "price": 1200000,
+      "playingHand": "Left-hand",
+      "image": "https://www.arabnews.com/sites/default/files/styles/n_670_395/public/2019/10/29/1821111-254154667.jpg?itok=sUV10ozW"
+    },
+    {
+      "name": "Pat Cummins",
+      "country": "Australia",
+      "role": "Bowler",
+      "price": 100000,
+      "playingHand": "Right-hand",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2025/02/2023-11-04T000000Z_745335239_UP1EJB412P4IM_RTRMADP_3_CRICKET-WORLDCUP-ENG-AUS-1738751297.jpg?resize=1920%2C1440"
+    },
+    {
+      "name": "Jos Buttler",
+      "country": "England",
+      "role": "Wicket-keeper",
+      "price": 130000,
+      "playingHand": "Right-hand",
+      "image": "https://w0.peakpx.com/wallpaper/644/377/HD-wallpaper-jos-buttler-cricket.jpg"
+    },
+    {
+      "name": "Trent Boult",
+      "country": "New Zealand",
+      "role": "Bowler",
+      "price": 1100000,
+      "playingHand": "Left-hand",
+      "image": "https://c8.alamy.com/comp/TYHDBD/new-zealands-trent-boult-during-the-icc-cricket-world-cup-group-stage-match-at-edgbaston-birmingham-TYHDBD.jpg"
+    },
+    {
+      "name": "David Warner",
+      "country": "Australia",
+      "role": "Batter",
+      "price": 1250000,
+      "playingHand": "Left-hand",
+      "image": "https://i.pinimg.com/736x/96/f6/15/96f6159424a5b4a55e88d1c8a2783471.jpg"
+    },
+    {
+      "name": "Rashid Khan",
+      "country": "Afghanistan",
+      "role": "Bowler",
+      "price": 1150000,
+      "playingHand": "Right-hand",
+      "image": "https://www.zapcricket.com/cdn/shop/articles/WhatsApp_Image_2024-01-27_at_02.45.38.webp?v=1706649684"
+    },
+    {
+      "name": "Mushfiqur Rahim",
+      "country": "Bangladesh",
+      "role": "Wicket-keeper",
+      "price": 90000,
+      "playingHand": "Right-hand",
+      "image": "https://static.cricketaddictor.com/wp-content/uploads/2021/02/Mushfiqur-Rahim.jpg?q=80"
+    },
+    {
+      "name": "Ben Stokes",
+      "country": "England",
+      "role": "All-rounder",
+      "price": 1450000,
+      "playingHand": "Left-hand",
+      "image": "https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2023/09/Ben-Stokes-vs-NZ-AP-8.jpg?size=*:900"
+    }
+  ]
+  
