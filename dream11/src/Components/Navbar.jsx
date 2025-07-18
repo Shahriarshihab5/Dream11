@@ -3,23 +3,24 @@ import logo from '../assets/logo.png';
 import coin from '../assets/coin_PNG36871.png';
 
 const Navbar = ({ coinCount }) => {
-    return (
-        <div className='flex justify-between'>
-            <div>
-                <img src={logo} alt="Website Logo" />
-            </div>
-            <div className='flex gap-3 text-center justify-center items-center'>
-                <h1>Home</h1>
-                <h1>Fixture</h1>
-                <h1>Teams</h1>
-                <h1>Schedules</h1>
-                <h1 className='flex gap-2 items-center border p-2 rounded-2xl h-10 font-bold text-black'>
-                    {coinCount.toLocaleString()} Coin {/* Fixed method name and added space */}
-                    <img className='h-8' src={coin} alt="Coin Icon" />
-                </h1>
-            </div>
+  return (
+    <div className="fixed top-0 left-0 w-full z-50 bg-white shadow-md px-4 py-2">
+      <div className="flex justify-between items-center">
+        <img src={logo} alt="Website Logo" className="h-10" />
+
+        <div className="flex flex-wrap gap-4 items-center text-sm sm:text-base font-semibold">
+          <h1>Home</h1>
+          <h1>Fixture</h1>
+          <h1>Teams</h1>
+          <h1>Schedules</h1>
+          <div className="flex gap-2 items-center border p-2 rounded-2xl h-10 font-bold text-black bg-gray-100">
+            {coinCount.toLocaleString()} Coin
+            <img className="h-6" src={coin} alt="Coin Icon" />
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Navbar;

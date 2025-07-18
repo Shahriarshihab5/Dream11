@@ -14,8 +14,8 @@ const Players = () => {
 
   return (
     <div className="px-4 sm:px-6 md:px-10">
-      {/* Sticky Header */}
-      <div className="sticky top-0 z-50 bg-white py-4">
+   
+      <div className="sticky top-12 z-50 py-4">
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-black font-bold text-lg">
           <h1 className="text-center sm:text-left w-full sm:w-auto">
             {selectedTab === 'available'
