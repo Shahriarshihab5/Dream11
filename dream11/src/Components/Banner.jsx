@@ -19,9 +19,9 @@ const Banner = ({ setCoinCount }) => {
         <p>Beyond Boundaries Beyond Limits</p>
 <div className='border-2 border-yellow-300  p-2 rounded-2xl'>    
       <button 
-          onClick={() => setCoinCount(600000)} 
+          onClick={() => setCoinCount(prev => prev + 600000)}
           style={{ backgroundColor: '#E7FE29' }} 
-          className='p-3 rounded-2xl text-black font-bold'
+          className=' cursor-pointer p-3 rounded-2xl text-black font-bold'
         >
           Claim Free Credit
         </button></div>

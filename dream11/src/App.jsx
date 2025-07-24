@@ -7,9 +7,20 @@ import Footerb from "./Components/Footerb";
 
 import { useState } from "react"
 
+
 function App() {
  
   const [coinCount,setCoinCount]=useState(0);
+
+  function handlePurchase(price) {
+    if (coinCount >= price) {
+      setCoinCount(coinCount - price);
+      return true;
+    } else {
+      return false;
+    }
+  }
+    
 
   return (
     
@@ -19,7 +30,7 @@ function App() {
  <Navbar coinCount={coinCount}/>
  <Banner  setCoinCount={setCoinCount}/>
 
- <Players/>
+ <Players handlePurchase={handlePurchase}/>
 
  <Footer></Footer>
 

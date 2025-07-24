@@ -2,7 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="relative -mb-35 mt-20 z-10 border-1 border-gray-300 rounded-2xl py-6 mx-12">
+    
+    <div className="relative -mb-35 mt-20 z-10 border-1 border-white rounded-2xl py-6 mx-16  bg-white/20  ">
       <div className="max-w-5xl mx-auto p-8 rounded-xl shadow-xl bg-gradient-to-r from-blue-100 via-white to-orange-100">
         <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800">
           Subscribe to our Newsletter

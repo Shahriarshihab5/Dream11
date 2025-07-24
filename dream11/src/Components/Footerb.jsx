@@ -21,7 +21,7 @@ const Footerb = () => {
  
             <h3 className="text-white font-bold mb-2">Subscribe</h3>
             <h3>Subscribe to our newsletter for the latest updates.</h3>
-            <div className="flex mt-2g">
+            <div className="flex mt-2">
       <div className="bg-white rounded-bl-2xl rounded-tl-2xl ">
       <input type="email" placeholder="Enter your email" className="px-3 py-2 rounded-l-md text-black" />
       </div>
